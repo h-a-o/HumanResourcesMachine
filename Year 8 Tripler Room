@@ -1,0 +1,28 @@
+Tripler Room
+
+For each thing in the INBOX, TRIPLE it.
+And OUTBOX the result.
+
+Self improvement tip:
+Where are we going with this?
+Please leave the high level decisions to management.
+
+--------------------------------------
+commannds available:
+->inbox
+outbox->
+copyfrom
+copyto
+jump
+
+-----------------------------------
+A
+01 ->inbox
+02 copyto 0
+03 add 0
+04 add 0
+05 outbox->
+06 jump to A
+-------------------------------
+Size Challenge  6  | 6  commands
+Spped Challenge 24 | 24 steps
