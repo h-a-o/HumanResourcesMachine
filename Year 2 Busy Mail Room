@@ -1,1 +1,32 @@
+Busy Mail Room
+Grab each thing from the INBOX, and drop each one into the OUTBOX.
+You got a new command! YOu can drag JUMP's arrow to jump to different lines within your program.
+With this new ability, you can complete this assignment with only 3 total commands.
+--------------------------------------
+commannds available:
+->inbox
+outbox->
+jump
 
+
+SOLUTION 1
+-----------------------------------
+A
+01 ->inbox
+02 outbox->
+03 jump to A
+-------------------------------
+Size Challenge  3  | 3  commands
+Spped Challenge 25 | 30 steps
+
+SOLUTION 2
+----------------------------
+A
+01 ->inbox
+02 outbox->
+03 ->inbox
+04 outbox->
+05 jump to A
+-------------------------------
+Size Challenge  3  | 5  commands
+Spped Challenge 25 | 25 steps
