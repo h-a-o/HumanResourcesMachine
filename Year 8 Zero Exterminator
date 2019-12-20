@@ -1,0 +1,24 @@
+Zero Exterminator
+
+Send all things that ARE NOT ZERO to the OUTBOX.
+You got a new command! It jumps ONLY if the value you are holding is ZERO.
+Otherwise it continues to the next line.
+
+--------------------------------------
+commannds available:
+->inbox
+outbox->
+copyfrom
+copyto
+jump
+jump if zero
+-----------------------------------
+A
+B
+01 ->inbox
+02 jump if 0 to B
+03 outbox->
+04 jump to A
+-------------------------------
+Size Challenge  4  | 4  commands
+Spped Challenge 23 | 23 steps
