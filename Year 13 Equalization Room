@@ -1,0 +1,38 @@
+Equalization Room
+
+Get two things in the INBOX,
+IF they are EQUAL, put ONE of them in the OUTBOX.
+Discard non-equal pairs.
+Repeat!
+
+You got...COMMENTS!
+You can use them, if you like, to mark sections of your program.
+--------------------------------------
+commannds available:
+->inbox
+outbox->
+copyfrom
+copyto
+add
+sub
+jump
+jump if zero
+...
+-----------------------------------
+01 jump to B
+A
+02 copy from 0
+03->inbox
+B
+C
+04 ->inbox
+05 copyto 0
+06 ->inbox
+05 sub 0
+06 outbox->
+07 sub 0
+08 jump if zero to A
+09 jump to C
+-------------------------------
+Size Challenge  9  | 9  commands
+Spped Challenge 27 | 27 steps
