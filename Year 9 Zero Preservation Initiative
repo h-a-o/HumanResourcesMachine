@@ -1,0 +1,24 @@
+Tripler Room
+Send only the ZEROs to the OUTBOX.
+
+--------------------------------------
+commannds available:
+->inbox
+outbox->
+copyfrom
+copyto
+add
+jump
+jump if zero
+-----------------------------------
+01 jumo to B
+A
+02 outbox->
+B
+C
+03 ->inbox
+04 jump if zero to A
+05 jump to C
+-------------------------------
+Size Challenge  5  | 5  commands
+Spped Challenge 25 | 25 steps
