@@ -1,0 +1,33 @@
+Tetracontiplier
+
+For each thing in the INBOX,
+multiply it by 40, and put the result in the OUTBOX.
+
+--------------------------------------
+commannds available:
+->inbox
+outbox->
+copyfrom
+copyto
+add
+jump
+
+-----------------------------------
+A
+01 ->inbox
+02 copyto 0
+03 add 0
+04 copyto 0
+05 add 0
+06 copyto 0
+07 add 0
+08 copyto 0
+09 add 0
+10 copyto 1
+11 add 1
+12 add 0
+13 outbox->
+14 jump to A
+-------------------------------
+Size Challenge  14 | 14 commands
+Spped Challenge 56 | 56 steps
