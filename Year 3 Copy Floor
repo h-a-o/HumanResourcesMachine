@@ -1,0 +1,23 @@
+Copy Floor
+Ignore the INBOX for now, and just send the following 3 letters to the OUTBOX:
+B U G
+The Facilities Management staff has placed some items over there on the carpert for you.
+If only there were a way you could pick them up...
+
+--------------------------------------
+commannds available:
+->inbox
+outbox->
+copyfrom
+jump
+
+-----------------------------------
+01 copyfrom 4
+02 outbox->
+03 copyfrom 0
+04 outbox->
+05 copyfrom 3
+06 outbox->
+-------------------------------
+Size Challenge  6 | 6 commands
+Spped Challenge 6 | 6 steps
