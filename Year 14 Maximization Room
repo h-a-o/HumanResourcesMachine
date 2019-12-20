@@ -1,0 +1,44 @@
+Maximization Room
+
+Grab TWO things from the INBOX,
+and put only the BIGGER of the two in the OUTBOX.
+If they are equal, just pick either one.
+Repeat!
+
+You got a new command!
+Jumps only if the thing you're holding is negative. (Less than zero.)
+Otherwise continues to the next line.
+--------------------------------------
+commannds available:
+->inbox
+outbox->
+copyfrom
+copyto
+add
+sub
+jump
+jump if zero
+jump if negative
+...
+-----------------------------------
+01 jump to C
+A
+02 copy from 0
+B
+03 outbox->
+04 jump to E
+C
+D
+05 ->inbox
+06 copyto 0
+07 ->inbox
+08 copyto 1
+09 sub 0
+10 jump if negative to A
+11 copyfrom 1
+12 jump to B
+E
+13 jump to D
+-------------------------------
+Size Challenge  10 | 13  commands
+Spped Challenge 34 | 43 steps
