@@ -1,0 +1,32 @@
+Octoplier Suite
+
+For each thing in the INBOX,
+multiply it by 8, and put the result in the OUTBOX.
+
+Using a bunch of ADD commands is easy, but WASTEFUL!
+Can you do it using only 3 ADD commands?
+Management is watching.
+
+--------------------------------------
+commannds available:
+->inbox
+outbox->
+copyfrom
+copyto
+add
+jump
+
+-----------------------------------
+A
+01 ->inbox
+02 copyto 0
+03 add 0
+04 copyto 0
+05 add 0
+06 copyto 0
+07 add 0
+08 outbox->
+09 jump to A
+-------------------------------
+Size Challenge  9  | 9  commands
+Spped Challenge 36 | 36 steps
