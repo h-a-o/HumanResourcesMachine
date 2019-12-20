@@ -11,7 +11,7 @@ add
 jump
 jump if zero
 -----------------------------------
-01 jumo to B
+01 jump to B
 A
 02 outbox->
 B
